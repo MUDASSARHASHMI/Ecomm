@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% load crispy_forms_tags %}
+{% block head_title %}Homepage{% endblock %}
+<style>
+{% block style %}
+
+{% endblock %}
+</style>
+{% block jumbotron %}
+
+    <div class="jumbotron">
+
+    <div class="row">
+
+        <div class="col-xs-6">
+        <h1>Project Template</h1>
+        <p>This is default project template I use for customers. Template is created in Bootstrap3 Django 1.8.5 and it also includes some third party packages such as Django Crispy Forms and with template package Bootstrap3.</p>
+
+        <p>
+          <a class="btn btn-lg btn-default" href="" role="button">Join Us &raquo;</a>
+        </p>
+        </div>
+        <div class="col-xs-6" style="background-color: #000000; height: 300px">
+
+
+        </div>
+
+      </div>
+    </div>
+{% endblock %}
+{% block content %}
+
+<div class="row">
+
+    <div class="col-sm-3 pull-right">
+        <h1 class="lead" style="text-align: center;">{{ title }}</h1>
+
+        <form method="POST" action=""> {% csrf_token %}
+        {{ form|crispy }}
+        <input class="btn btn-primary" type="submit" value="SignUp">
+
+        </form>
+    </div>
+    <div class="col-sm-3" style="text-align: center;">
+        <p class='lead'>Built with Django &amp; Bootstrap</p>
+    </div>
+    <div class="col-sm-3" style="text-align: center;">
+        <p class='lead'>Base Project Template with Crispy Forms</p>
+    </div>
+    <div class="col-sm-3" style="text-align: center;">
+        <p class='lead'>Includes SignUp, Contact and Blog Apps</p>
+    </div>
+</div>
+{% endblock %}
