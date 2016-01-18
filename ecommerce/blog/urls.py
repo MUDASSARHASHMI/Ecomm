@@ -12,5 +12,5 @@ urlpatterns = [
     url(r'^create/$', blog_create),
     url(r'^(?P<id>\d+)/$', blog_detail, name='detail'),
     url(r'^(?P<id>\d+)/edit/$', blog_update, name='update'),
-    url(r'^delete/$', blog_delete),
+    url(r'^(?P<id>\d+)/delete/$', blog_delete),
 ]
