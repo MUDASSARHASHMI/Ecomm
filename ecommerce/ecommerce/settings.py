@@ -8,7 +8,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 SECRET_KEY = 'c7lt5+lhoy4epr9$n#7%536c21w1shj@i@r*ap!(0*c!_ya3a!'
 
-
+SITE_ID = 1
 DEBUG = True
 
 ALLOWED_HOSTS = []
@@ -21,6 +21,7 @@ INSTALLED_APPS = [
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'registration',
     'blog',
 ]
 
@@ -101,4 +102,9 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static', 'static'),
 )
-#update
+
+#DJANGO REGISTRATION REDUX SETTINGS
+ACCOUNT_ACTIVATION_DAYS = 7
+REGISTRATION_AUTO_LOGIN = True
+SITE_ID = 1
+LOGIN_REDIRECT_URL = '/'
