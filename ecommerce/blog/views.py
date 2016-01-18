@@ -1,3 +1,4 @@
+from django.contrib import messages
 from django.shortcuts import render, get_object_or_404
 from django.http import HttpResponse, HttpResponseRedirect
 from .models import Post
@@ -8,7 +9,10 @@ def blog_create(request):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
+        messages.success(request, "Successfully Created")
         return HttpResponseRedirect(instance.get_absolute_url())
+    else:
+        messages.error(request, "Not Successfully Created")
     context = {
         "form": form,
     }
@@ -38,6 +42,9 @@ def blog_update(request, id=None):
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
+        messages.success(request, "Updated Successfully")
+    else:
+        messages.error(request, "Not Updated Successfully")
         return HttpResponseRedirect(instance.get_absolute_url())
     context = {
         "title": instance.title,

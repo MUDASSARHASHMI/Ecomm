@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="" />
+    <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/views.py" afterPath="$PROJECT_DIR$/ecommerce/blog/views.py" />
+    </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -28,22 +32,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="1" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.8107607" vertical-offset="1314" max-vertical-offset="1853">
-              <folding />
+            <state line="46" column="57" selection-start="1437" selection-end="1437" vertical-scroll-proportion="1.4508349" vertical-offset="0" max-vertical-offset="1088">
+              <folding>
+                <element signature="e#0#35#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="20" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="969">
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
+            <state line="7" column="4" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="391">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -51,7 +55,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+            <state line="13" column="57" selection-start="343" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -151,7 +155,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
@@ -159,8 +162,9 @@
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/admin.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/urls.py" />
-        <option value="$PROJECT_DIR$/ecommerce/blog/views.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
+        <option value="$PROJECT_DIR$/ecommerce/blog/views.py" />
+        <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
       </list>
     </option>
   </component>
@@ -547,7 +551,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -556,7 +560,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -606,13 +610,6 @@
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="29" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="238">
           <folding />
         </state>
       </provider>
@@ -684,15 +681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="20" selection-start="1312" selection-end="1312" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="969">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="18" selection-start="66" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
@@ -702,17 +690,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+        <state line="103" column="1" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="1" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.8107607" vertical-offset="1314" max-vertical-offset="1853">
+        <state line="13" column="57" selection-start="343" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="4" selection-start="126" selection-end="126" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="391">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="57" selection-start="1437" selection-end="1437" vertical-scroll-proportion="1.4508349" vertical-offset="0" max-vertical-offset="1088">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
