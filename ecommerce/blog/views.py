@@ -11,8 +11,7 @@ def blog_create(request):
         instance.save()
         messages.success(request, "Successfully Created")
         return HttpResponseRedirect(instance.get_absolute_url())
-    else:
-        messages.error(request, "Not Successfully Created")
+    
     context = {
         "form": form,
     }
@@ -43,8 +42,6 @@ def blog_update(request, id=None):
         instance = form.save(commit=False)
         instance.save()
         messages.success(request, "Updated Successfully")
-    else:
-        messages.error(request, "Not Updated Successfully")
         return HttpResponseRedirect(instance.get_absolute_url())
     context = {
         "title": instance.title,
