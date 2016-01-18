@@ -1,4 +1,5 @@
-
+{% extends 'base.html' %}
+{% block content %}
 <h1>List for Testing!</h1>
 {% for obj in object_list %}
 <!--<a href="/blog/{{ obj.id }}/">{{ obj.title }} </a> <br/>-->
@@ -12,3 +13,4 @@
 
 {% endfor %}
 
+{% endblock %}

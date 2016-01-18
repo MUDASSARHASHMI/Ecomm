@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/views.py" afterPath="$PROJECT_DIR$/ecommerce/blog/views.py" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\css\custom.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\css\navbar-static-top.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\js\ie-emulation-modes-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\js\ie10-viewport-bug-workaround.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\js\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\static\js\js_ie8-responsive-file-warning.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\about.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\base.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\forms.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\head_css.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\header.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\home.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\javascript.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\templates\navbar.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -31,102 +47,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="4" selection-start="490" selection-end="490" vertical-scroll-proportion="0.41001856" vertical-offset="0" max-vertical-offset="1037">
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="77" selection-start="192" selection-end="199" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="391">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="343" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="post_form.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="51" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="255">
-              <folding>
-                <marker date="1453030930368" expanded="true" signature="64:167" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/admin.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="41" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="18" selection-start="66" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python34/Lib/site-packages/django/forms/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="86" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://C:/Python34/Lib/site-packages/django/forms/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="8568" max-vertical-offset="12019">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="39" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="578">
+            <state line="22" column="37" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="578">
               <folding>
                 <element signature="e#698#739#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/views.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/admin.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="560">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -156,7 +121,6 @@
       <list>
         <option value="$PROJECT_DIR$/ecommerce/blog/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" />
-        <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/forms.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/admin.py" />
@@ -164,6 +128,7 @@
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/views.py" />
+        <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
       </list>
     </option>
   </component>
@@ -248,6 +213,28 @@
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -268,6 +255,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="newsletter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -551,24 +556,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -589,106 +594,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitattributes">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="27" selection-start="27" selection-end="27" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="391">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="44" selection-start="680" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="39" selection-start="943" selection-end="943" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="578">
-          <folding>
-            <element signature="e#698#739#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="365" selection-end="365" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="340">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/django/forms/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="8568" max-vertical-offset="12019">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="51" selection-start="82" selection-end="82" vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <marker date="1453030930368" expanded="true" signature="64:167" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="41" selection-start="404" selection-end="404" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/django/core/exceptions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="137" column="33" selection-start="4149" selection-end="4159" vertical-scroll-proportion="0.24304268" vertical-offset="2181" max-vertical-offset="3026">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python34/Lib/site-packages/django/forms/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="86" selection-end="101" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="18" selection-start="66" selection-end="71" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="1" selection-start="2449" selection-end="2449" vertical-scroll-proportion="0.0" vertical-offset="1314" max-vertical-offset="1853">
@@ -712,10 +617,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="4" selection-start="490" selection-end="490" vertical-scroll-proportion="0.41001856" vertical-offset="0" max-vertical-offset="1037">
+        <state line="13" column="4" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <marker date="1453100922621" expanded="true" signature="-1:-1" placeholder="import ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="14" selection-start="424" selection-end="424" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="357">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="37" selection-start="903" selection-end="903" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="578">
+          <folding>
+            <element signature="e#698#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
+          <folding />
         </state>
       </provider>
     </entry>
