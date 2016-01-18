@@ -18,6 +18,7 @@ INSTALLED_APPS = [
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'blog',
@@ -100,3 +101,4 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'static', 'media')
 STATICFILES_DIRS = (
     os.path.join(BASE_DIR, 'static', 'static'),
 )
+#update

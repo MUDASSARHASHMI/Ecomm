@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" afterPath="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
     </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,16 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="44" selection-start="680" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-                <marker date="1453025459431" expanded="true" signature="140:753" placeholder="..." />
-                <marker date="1453025459431" expanded="true" signature="388:414" placeholder="..." />
-                <marker date="1453025459431" expanded="true" signature="577:753" placeholder="..." />
-              </folding>
+            <state line="103" column="7" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.8107607" vertical-offset="1314" max-vertical-offset="1853">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -55,10 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.18923934" vertical-offset="0" max-vertical-offset="539">
+            <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -158,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" />
@@ -168,6 +162,7 @@
         <option value="$PROJECT_DIR$/ecommerce/blog/admin.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/urls.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/views.py" />
+        <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
       </list>
     </option>
   </component>
@@ -555,7 +550,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -563,7 +558,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -600,13 +595,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="44" selection-start="1065" selection-end="1071" vertical-scroll-proportion="0.0" vertical-offset="510" max-vertical-offset="1836">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitattributes">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
@@ -636,9 +624,9 @@
         <state line="18" column="44" selection-start="680" selection-end="681" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
-            <marker date="1453025459431" expanded="true" signature="140:753" placeholder="..." />
-            <marker date="1453025459431" expanded="true" signature="388:414" placeholder="..." />
-            <marker date="1453025459431" expanded="true" signature="577:753" placeholder="..." />
+            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453025459431" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -718,7 +706,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.18923934" vertical-offset="0" max-vertical-offset="539">
+        <state line="13" column="57" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="7" selection-start="2455" selection-end="2455" vertical-scroll-proportion="0.8107607" vertical-offset="1314" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
