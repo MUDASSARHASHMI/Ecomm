@@ -1,0 +1,14 @@
+
+<h1>List for Testing!</h1>
+{% for obj in object_list %}
+<!--<a href="/blog/{{ obj.id }}/">{{ obj.title }} </a> <br/>-->
+{# <!--<a href="{% url 'blog:detail' id=obj.id %}">{{ obj.title }}</a><br/>--> #}
+
+<a href="{{ obj.get_absolute_url }}">{{ obj.title }}</a>
+{{ obj.content }}<br/>
+{{ obj.timestamp }}<br/>
+{{ obj.updated }}<br/>
+{{ obj.id }}<br/>
+
+{% endfor %}
+
