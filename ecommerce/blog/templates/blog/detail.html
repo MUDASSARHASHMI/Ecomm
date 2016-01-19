@@ -2,11 +2,11 @@
 {% block head_title %}{{ title }} | {{ block.super }}{% endblock head_title %}
 
 {% block content %}
-<div class="col-sm-6 col-sm-offset-3">
+<div class="col-sm-8 col-sm-offset-2">
 <h1>{{ title }} <small>{{ instance.timestamp }}</small></h1>
 
-{{ instance.content }}<br/>
-<small>Last Updated {{ instance.updated }}</small><br/>
+{{ instance.content|linebreaks }}<br/>
+
 
 </div>
 {% endblock content %}

@@ -3,7 +3,7 @@ from django.contrib import admin
 from .models import Post
 
 class PostModelAdmin(admin.ModelAdmin):
-    list_display = ['title', 'updated', 'timestamp', 'content']
+    list_display = ['title', 'updated', 'timestamp', 'content', 'image']
     list_display_links = ['updated']
     list_editable = ['title']
     list_filter = ['timestamp', 'updated', 'title']
