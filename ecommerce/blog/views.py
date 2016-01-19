@@ -7,7 +7,7 @@ from .forms import PostForm
 
 def blog_create(request):
     title = 'Create'
-    form = PostForm(request.POST or None, request.DATA or None)
+    form = PostForm(request.POST or None)
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
@@ -61,7 +61,7 @@ def blog_detail(request, id):
 def blog_update(request, id=None):
     title = "Update"
     instance = get_object_or_404(Post, id=id)
-    form = PostForm(request.POST or None, request.DATA or None, instance=instance)
+    form = PostForm(request.POST or None, instance=instance)
     if form.is_valid():
         instance = form.save(commit=False)
         instance.save()
