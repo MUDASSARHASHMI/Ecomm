@@ -1,18 +1,12 @@
-<html>
-<body>
-<h1>Detail for Testing!</h1>
+{% extends 'base.html' %}
+{% block head_title %}{{ title }} | {{ block.super }}{% endblock head_title %}
 
-{% if messages %}
-    <ul class="messages">
-    {% for message in messages %}
-    <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
-    {% endfor %}
-    </ul>
-{% endif %}
-{{ instance.id }}<br/>
-{{ instance.title }}<br/>
+{% block content %}
+<div class="col-sm-6 col-sm-offset-3">
+<h1>{{ title }} <small>{{ instance.timestamp }}</small></h1>
+
 {{ instance.content }}<br/>
-{{ instance.timestamp }}<br/>
-{{ instance.updated }}<br/>
-</body>
-</html>
+<small>Last Updated {{ instance.updated }}</small><br/>
+
+</div>
+{% endblock content %}

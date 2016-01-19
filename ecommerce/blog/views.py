@@ -58,6 +58,5 @@ def blog_update(request, id=None):
 
 def blog_delete(request, id=None):
     instance = get_object_or_404(Post, id=id)
-    if instance.delete():
-        messages.success(request, "Successfully Deleted")
+    instance.delete()
     return redirect('blog:list')
