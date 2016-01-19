@@ -18,3 +18,6 @@ class Post(models.Model):
     def get_absolute_url(self):
         #return reverse('detail', kwargs={"id": self.id})
         return reverse('blog:detail', kwargs={"id": self.id}) #referring to the name space assigned to master urls.py
+
+    class Meta:
+        ordering = ['-timestamp', '-updated']
