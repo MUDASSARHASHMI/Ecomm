@@ -47,7 +47,7 @@ def blog_list(request):
 
 
 
-def blog_detail(request, id):
+def blog_detail(request, id=None):
     title = "Detail"
     instance = get_object_or_404(Post, id=id)
     context = {
