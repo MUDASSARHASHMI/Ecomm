@@ -3,12 +3,16 @@
 
 <div class="col-sm-8 col-sm-offset-2">
     <h1>Blog Zone</h1>
-
+    <form method="GET" action=""> {% csrf_token %}
+        <input type="text" name="q" placeholder="Search Posts" value="{{ request.GET.q }}">
+        <input type="submit" value="Search">
+    </form>
+<hr/>
 {% for obj in object_list %}
 <!--<a href="/blog/{{ obj.id }}/">{{ obj.title }} </a> <br/>-->
 {# <!--<a href="{% url 'blog:detail' id=obj.id %}">{{ obj.title }}</a><br/>--> #}
   <div class="row">
-    <div class="col-sm-8 pull-left">
+    <div class="col-sm-12">
 
     <!--<div class="thumbnail">-->
         {% if obj.image %}
@@ -38,7 +42,8 @@
 <div class="pagination">
     <span class="step-links">
         {% if object_list.has_previous %}
-            <a href="?{{ page_request_var }}={{ object_list.previous_page_number }}">previous</a>
+            <a href="?{{ page_request_var }}={{ object_list.previous_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">previous</a>
+
         {% endif %}
 
         <span class="current">
@@ -46,10 +51,10 @@
         </span>
 
         {% if object_list.has_next %}
-            <a href="?{{ page_request_var }}={{ object_list.next_page_number }}">next</a>
+            <a href="?{{ page_request_var }}={{ object_list.next_page_number }}{% if request.GET.q %}&q={{ request.GET.q }}{% endif %}">next</a>
         {% endif %}
     </span>
 </div>
-
+</div>
     </div>
 {% endblock content %}
