@@ -25,8 +25,10 @@ def blog_create(request):
     return render(request, 'blog/post_form.html', context)
 
 def blog_list(request):
-    title = "List"
+    today = timezone.now().date()
     queryset_list = Post.objects.all() #.order_by('-timestamp')
+    if request.user.is_staff or request.user.is_superuser:
+        queryset_list = Post.objects.all()
     paginator = Paginator(queryset_list, 10) # Show 10 contacts per page
     page_request_var = 'page'
     page = request.GET.get(page_request_var)
@@ -40,8 +42,10 @@ def blog_list(request):
         queryset = paginator.page(paginator.num_pages)
     context = {
         "object_list": queryset,
-        "title": title,
-        'page_request_var': page_request_var
+        "title": "List",
+        'page_request_var': page_request_var,
+        "today": today
+
     }
     return render(request, 'blog/list.html', context)
 
@@ -54,7 +58,7 @@ def blog_list(request):
 def blog_detail(request, id=None):
 
     instance = get_object_or_404(Post, id=id)
-    if instance.draft:
+    if instance.draft or instance.publish > timezone.now().date():
         if not request.user.is_staff or not request.user.is_superuser:
             raise Http404
     share_string = quote_plus(instance.content)
