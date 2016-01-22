@@ -2,15 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce/blog/migrations/0001_initial.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\media\1\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\media\2\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\media\3\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Mudassar\ecomm\Ecomm\ecommerce\static\media\None\4.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
