@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" afterPath="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/views.py" afterPath="$PROJECT_DIR$/ecommerce/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,7 +53,7 @@
       <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="134" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.68" vertical-offset="561" max-vertical-offset="1105">
+            <state line="59" column="22" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.796" vertical-offset="605" max-vertical-offset="1105">
               <folding />
             </state>
           </provider>
@@ -64,7 +62,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="34" selection-start="812" selection-end="818" vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="612">
+            <state line="17" column="34" selection-start="812" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -73,10 +71,8 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="26" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-              <folding>
-                <element signature="e#0#39#0" expanded="true" />
-              </folding>
+            <state line="28" column="26" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="476" max-vertical-offset="1105">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -84,10 +80,8 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding>
-                <element signature="e#0#24#0" expanded="true" />
-              </folding>
+            <state line="11" column="22" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="187" max-vertical-offset="306">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -97,7 +91,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="41" column="18" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1955">
               <folding>
-                <element signature="e#0#29#0" expanded="true" />
                 <marker date="1453411157435" expanded="true" signature="416:917" placeholder="..." />
                 <marker date="1453411157435" expanded="true" signature="942:2117" placeholder="..." />
               </folding>
@@ -108,10 +101,8 @@
       <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="53" selection-start="601" selection-end="628" vertical-scroll-proportion="-7.4615383" vertical-offset="10" max-vertical-offset="561">
-              <folding>
-                <element signature="n#style#0;n#span#0;n#small#0;n#h1#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="12" column="53" selection-start="601" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="561">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,7 +110,7 @@
       <file leaf-file-name="requirements.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/requirements.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+            <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
               <folding />
             </state>
           </provider>
@@ -129,9 +120,7 @@
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/migrations/0001_initial.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="24" column="68" selection-start="723" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="782">
-              <folding>
-                <element signature="e#70#109#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -437,9 +426,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
     <property name="last_opened_file_path" value="C:/Python27/python.exe" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -542,6 +532,9 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -563,9 +556,6 @@
       <option name="PUREUNITTEST" value="true" />
       <option name="PARAMS" value="" />
       <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -650,25 +640,25 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2530303" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681818" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -693,52 +683,32 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/message_display.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
-          <folding />
-        </state>
+        <state line="10" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <folding>
-            <element signature="e#0#32#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="7" column="28" selection-start="238" selection-end="238" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="23" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
+        <state line="14" column="23" selection-start="376" selection-end="376" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/newsletter/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="539" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="322" selection-end="322" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
-          <folding>
-            <marker date="1453304778063" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1453304778063" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="11" column="22" selection-start="322" selection-end="322" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/templatetags/urlify.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="16" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
-          <folding>
-            <marker date="1453371583349" expanded="true" signature="-1:-1" placeholder="import ..." />
-            <marker date="1453371583349" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="5" column="16" selection-start="129" selection-end="129" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/ecommerce/urls.py">
@@ -759,7 +729,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="34" selection-start="812" selection-end="818" vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="612">
+        <state line="17" column="34" selection-start="812" selection-end="818" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
@@ -767,9 +737,7 @@
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="22" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -783,18 +751,14 @@
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/migrations/0001_initial.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="68" selection-start="723" selection-end="735" vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="782">
-          <folding>
-            <element signature="e#70#109#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="26" selection-start="1248" selection-end="1248" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -802,7 +766,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="41" column="18" selection-start="1437" selection-end="1437" vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="1955">
           <folding>
-            <element signature="e#0#29#0" expanded="true" />
             <marker date="1453411157435" expanded="true" signature="416:917" placeholder="..." />
             <marker date="1453411157435" expanded="true" signature="942:2117" placeholder="..." />
           </folding>
@@ -811,16 +774,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="53" selection-start="601" selection-end="628" vertical-scroll-proportion="-7.4615383" vertical-offset="10" max-vertical-offset="561">
-          <folding>
-            <element signature="n#style#0;n#span#0;n#small#0;n#h1#1;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="12" column="53" selection-start="601" selection-end="628" vertical-scroll-proportion="0.0" vertical-offset="10" max-vertical-offset="561">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="134" selection-start="1920" selection-end="1920" vertical-scroll-proportion="0.68" vertical-offset="561" max-vertical-offset="1105">
+        <state line="59" column="22" selection-start="2010" selection-end="2010" vertical-scroll-proportion="0.796" vertical-offset="605" max-vertical-offset="1105">
           <folding />
         </state>
       </provider>
