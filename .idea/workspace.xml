@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/models.py" afterPath="$PROJECT_DIR$/ecommerce/blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/urls.py" afterPath="$PROJECT_DIR$/ecommerce/blog/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/blog/views.py" afterPath="$PROJECT_DIR$/ecommerce/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="" />
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +55,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="models.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="41" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1105">
+            <state line="39" column="63" selection-start="1585" selection-end="1589" vertical-scroll-proportion="0.25225225" vertical-offset="579" max-vertical-offset="1105">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -81,11 +75,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="106" column="49" selection-start="3426" selection-end="3426" vertical-scroll-proportion="0.72541744" vertical-offset="1275" max-vertical-offset="1819">
-              <folding />
+            <state line="106" column="49" selection-start="3426" selection-end="3426" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1955">
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -423,14 +419,30 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="128" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="157" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="151" />
     <property name="options.lastSelected" value="com.jetbrains.python.configuration.PythonSdkConfigurable" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="C:/Python27/python.exe" />
-    <property name="FullScreen" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="159" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="825" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="833" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
-    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="151" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="150" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -641,8 +653,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -654,7 +666,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -772,19 +784,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="41" selection-start="1753" selection-end="1753" vertical-scroll-proportion="0.0" vertical-offset="579" max-vertical-offset="1105">
+        <state line="106" column="49" selection-start="3426" selection-end="3426" vertical-scroll-proportion="0.0" vertical-offset="818" max-vertical-offset="1955">
           <folding>
-            <element signature="e#0#39#0" expanded="true" />
+            <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/blog/views.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/blog/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="106" column="49" selection-start="3426" selection-end="3426" vertical-scroll-proportion="0.72541744" vertical-offset="1275" max-vertical-offset="1819">
-          <folding />
+        <state line="39" column="63" selection-start="1585" selection-end="1589" vertical-scroll-proportion="0.25225225" vertical-offset="579" max-vertical-offset="1105">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
