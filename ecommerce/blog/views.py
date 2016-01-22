@@ -66,9 +66,9 @@ def blog_list(request):
 
 
 
-def blog_detail(request, id=None):
+def blog_detail(request, slug=None):
 
-    instance = get_object_or_404(Post, id=id)
+    instance = get_object_or_404(Post, slug=slug)
     if instance.draft or instance.publish > timezone.now().date():
         if not request.user.is_staff or not request.user.is_superuser:
             raise Http404
@@ -82,11 +82,11 @@ def blog_detail(request, id=None):
 
 
 
-def blog_update(request, id=None):
+def blog_update(request, slug=None):
     if not request.user.is_staff or not request.user.is_superuser:
         raise Http404
     title = "Update"
-    instance = get_object_or_404(Post, id=id)
+    instance = get_object_or_404(Post, slug=slug)
     form = PostForm(request.POST or None, request.FILES, instance=instance)
     if form.is_valid():
         instance = form.save(commit=False)
@@ -101,9 +101,9 @@ def blog_update(request, id=None):
     return render(request, 'blog/post_form.html', context)
 
 
-def blog_delete(request, id=None):
+def blog_delete(request, slug=None):
     if not request.user.is_staff or not request.user.is_superuser:
         raise Http404
-    instance = get_object_or_404(Post, id=id)
+    instance = get_object_or_404(Post, slug=slug)
     instance.delete()
     return redirect('blog:list')
