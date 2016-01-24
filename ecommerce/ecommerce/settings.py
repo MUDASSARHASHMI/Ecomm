@@ -24,6 +24,7 @@ INSTALLED_APPS = [
     'registration',
     'blog',
 
+
 ]
 
 MIDDLEWARE_CLASSES = [
