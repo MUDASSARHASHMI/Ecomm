@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<table class="table">
+    <tr>{% for object in object_list %}
+    <td><a href="{% url 'detail' pk=object.pk %}">{{ object.title }}</a></td>
+
+        <td>{{ product.description }}</td>
+    </tr>
+        {% endfor %}
+    </table>
+{% endblock content %}
