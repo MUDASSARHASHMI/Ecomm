@@ -22,7 +22,7 @@ from django.conf.urls.static import static
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include('blog.urls', namespace='blog')),# Name space makes your urls unique even if they are of same name in multiple apps
-
+    url(r'products/', include('products.urls')),
 ]
 
 if settings.DEBUG:
