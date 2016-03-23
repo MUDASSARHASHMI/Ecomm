@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="Blog App">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/templates/base.html" afterPath="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/models.py" afterPath="$PROJECT_DIR$/ecommerce/products/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/views.py" afterPath="$PROJECT_DIR$/ecommerce/products/views.py" />
     </list>
     <ignored path="Ecomm.iws" />
@@ -72,18 +73,9 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
+            <state line="23" column="11" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1394">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
-                <marker date="1458740597234" expanded="true" signature="346:514" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="1026:1666" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="1415:1441" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="1467:1586" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="1619:1666" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="1742:2007" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="2110:2322" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="2358:2518" placeholder="..." />
-                <marker date="1458740597234" expanded="true" signature="2484:2518" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -112,7 +104,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="48" selection-start="860" selection-end="860" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="561">
+            <state line="33" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.8107607" vertical-offset="124" max-vertical-offset="663">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -181,8 +173,8 @@
         <option value="$PROJECT_DIR$/ecommerce/products/urls.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/admin.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
-        <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
+        <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/views.py" />
       </list>
     </option>
@@ -792,24 +784,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-            <marker date="1458740597234" expanded="true" signature="346:514" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="1026:1666" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="1415:1441" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="1467:1586" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="1619:1666" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="1742:2007" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="2110:2322" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="2358:2518" placeholder="..." />
-            <marker date="1458740597234" expanded="true" signature="2484:2518" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="48" column="80" selection-start="2382" selection-end="2382" vertical-scroll-proportion="-10.076923" vertical-offset="554" max-vertical-offset="1564">
@@ -817,9 +791,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="11" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="1394">
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="48" selection-start="860" selection-end="860" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="561">
+        <state line="33" column="0" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.8107607" vertical-offset="124" max-vertical-offset="663">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>

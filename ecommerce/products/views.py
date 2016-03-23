@@ -9,7 +9,7 @@ class ProductDetailView(DetailView):
 
 class ProductListView(ListView):
     model = Product
-    queryset = Product.object.all()
+    queryset = Product.objects.all()
 
     def get_context_data(self, *args, **kwargs):
         context = super(ProductListView, self).get_context_data(*args, **kwargs)
@@ -19,9 +19,15 @@ class ProductListView(ListView):
         qs = super(ProductListView, self).get_queryset(*args, **kwargs)
         query = self.request.GET.get("q")
         if query:
-            qs = self.model.object.filter(
+            qs = self.model.objects.filter(
                 Q(title__icontains=query) |
-                Q(description__icontains=query) 
-
-            )
+                Q(description__icontains=query)
+                )
+            try:
+                qs2 = self.model.objects.filter(
+                    Q(price=query)
+                )
+                qs = (qs | qs2).distinct()
+            except:
+                pass
         return qs
