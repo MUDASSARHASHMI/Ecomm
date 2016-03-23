@@ -21,7 +21,7 @@ class ProductListView(ListView):
         if query:
             qs = self.model.object.filter(
                 Q(title__icontains=query) |
-                Q(description__icontains=query) |
-                Q(price=query)
+                Q(description__icontains=query) 
+
             )
         return qs
