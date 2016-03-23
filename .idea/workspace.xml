@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="Blog App">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/admin.py" afterPath="$PROJECT_DIR$/ecommerce/products/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/models.py" afterPath="$PROJECT_DIR$/ecommerce/products/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" afterPath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/templates/base.html" afterPath="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/views.py" afterPath="$PROJECT_DIR$/ecommerce/products/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -46,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="24" selection-start="707" selection-end="707" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="612">
+            <state line="10" column="24" selection-start="666" selection-end="666" vertical-scroll-proportion="-1.088" vertical-offset="714" max-vertical-offset="1564">
               <folding />
             </state>
           </provider>
@@ -79,6 +75,15 @@
             <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
+                <marker date="1458740597234" expanded="true" signature="346:514" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="1026:1666" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="1415:1441" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="1467:1586" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="1619:1666" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="1742:2007" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="2110:2322" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="2358:2518" placeholder="..." />
+                <marker date="1458740597234" expanded="true" signature="2484:2518" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -104,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="544">
+            <state line="15" column="50" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -163,7 +168,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/ecommerce/blog/forms.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/urls.py" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/post_form.html" />
@@ -179,6 +183,7 @@
         <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/views.py" />
+        <option value="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
       </list>
     </option>
   </component>
@@ -243,6 +248,94 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Ecomm" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ecommerce" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -662,13 +755,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="24" selection-start="707" selection-end="707" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/message_display.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="11" selection-start="317" selection-end="317" vertical-scroll-proportion="-6.5384617" vertical-offset="0" max-vertical-offset="272">
@@ -711,16 +797,32 @@
         <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+            <marker date="1458740597234" expanded="true" signature="346:514" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="1026:1666" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="1415:1441" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="1467:1586" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="1619:1666" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="1742:2007" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="2110:2322" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="2358:2518" placeholder="..." />
+            <marker date="1458740597234" expanded="true" signature="2484:2518" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="544">
+        <state line="15" column="50" selection-start="522" selection-end="522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="24" selection-start="666" selection-end="666" vertical-scroll-proportion="-1.088" vertical-offset="714" max-vertical-offset="1564">
+          <folding />
         </state>
       </provider>
     </entry>

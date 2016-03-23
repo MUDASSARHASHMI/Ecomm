@@ -13,6 +13,7 @@ class ProductListView(ListView):
 
     def get_context_data(self, *args, **kwargs):
         context = super(ProductListView, self).get_context_data(*args, **kwargs)
+        context["query"] = self.request.GET.get("q")
         return context
     def get_queryset(self, *args, **kwargs):
         qs = super(ProductListView, self).get_queryset(*args, **kwargs)
