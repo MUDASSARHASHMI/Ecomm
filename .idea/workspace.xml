@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="Blog App">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/admin.py" afterPath="$PROJECT_DIR$/ecommerce/products/admin.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/models.py" afterPath="$PROJECT_DIR$/ecommerce/products/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" afterPath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/views.py" afterPath="$PROJECT_DIR$/ecommerce/products/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -72,7 +76,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="46" selection-start="1580" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+            <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
               <folding>
                 <element signature="e#0#39#0" expanded="true" />
               </folding>
@@ -80,10 +84,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="30" selection-start="162" selection-end="162" vertical-scroll-proportion="0.18853974" vertical-offset="0" max-vertical-offset="541">
+            <state line="7" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
               <folding />
             </state>
           </provider>
@@ -100,13 +104,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="30" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="23" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="544">
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
-                <marker date="1458655246598" expanded="true" signature="200:220" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -126,7 +129,7 @@
       <file leaf-file-name="product_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
+            <state line="10" column="53" selection-start="277" selection-end="277" vertical-scroll-proportion="3.1538463" vertical-offset="252" max-vertical-offset="765">
               <folding />
             </state>
           </provider>
@@ -170,12 +173,12 @@
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" />
-        <option value="$PROJECT_DIR$/ecommerce/products/views.py" />
-        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/urls.py" />
-        <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/admin.py" />
+        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
+        <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
+        <option value="$PROJECT_DIR$/ecommerce/products/views.py" />
       </list>
     </option>
   </component>
@@ -240,24 +243,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ecomm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Ecomm" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ecommerce" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -582,7 +567,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32954547" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2901515" sideWeight="0.5442177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29242423" sideWeight="0.5442177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -611,7 +596,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -691,23 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="30" selection-start="252" selection-end="252" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-            <marker date="1458655246598" expanded="true" signature="200:220" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="66" selection-end="66" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="187">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="46" selection-start="155" selection-end="155" vertical-scroll-proportion="-3.2692308" vertical-offset="0" max-vertical-offset="289">
@@ -724,19 +692,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="33" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="53" selection-start="277" selection-end="277" vertical-scroll-proportion="3.1538463" vertical-offset="252" max-vertical-offset="765">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="46" selection-start="1580" selection-end="1582" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="935">
+        <state line="66" column="49" selection-start="2265" selection-end="2265" vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="1394">
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/admin.py">
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="30" selection-start="162" selection-end="162" vertical-scroll-proportion="0.18853974" vertical-offset="0" max-vertical-offset="541">
-          <folding />
+        <state line="23" column="23" selection-start="832" selection-end="832" vertical-scroll-proportion="0.72541744" vertical-offset="0" max-vertical-offset="544">
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
