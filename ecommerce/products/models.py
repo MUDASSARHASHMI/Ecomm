@@ -21,7 +21,7 @@ class Product(models.Model):
     #image = models.ImageField(upload_to="/products")
     price = models.DecimalField(max_digits=12, decimal_places=2)
     active = models.BooleanField(default=True)
-    object = ProductManager()
+    objects = ProductManager()
 
     def __unicode__(self):
         return self.title
