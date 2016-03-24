@@ -1,16 +1,24 @@
 {% extends 'base.html' %}
 {% block content %}
 
+
 <table class="table">
     <tr>{% for object in object_list %}
     <td><a href="{% url 'detail' pk=object.pk %}">{{ object.title }}</a></td>
+        <td>{{ object.inventory }}</td>
 
         <td>{{ product.description }}</td>
     </tr>
         {% endfor %}
     </table>
 <form method="POST" action=""> {% csrf_token %}
-{{ formset_as.p }}
+    {{ formset.management_form }}
+    {% for form in formset %}
+    {{ form.instance.product.title }}
+    {{ form.instance.title }}
+    {{ form.as_p }}
+
+    {% endfor %}
 <input type="submit" value="Update" class="btn"/>
 </form>
 {% endblock content %}

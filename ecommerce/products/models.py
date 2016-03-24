@@ -36,6 +36,7 @@ class Variation(models.Model):
     price = models.DecimalField(max_digits=20, decimal_places=2)
     sale_price = models.DecimalField(max_digits=20, decimal_places=2, null=True, blank=True)
     inventory = models.IntegerField(null=True, blank=True)
+    active = models.BooleanField(default=True)
 
     def __unicode__(self):
         return self.title
@@ -55,7 +56,7 @@ def post_save_signal_receiver(sender, instance, created, *args, **kwargs):
     if variations.count() == 0:
         new_var = Variation()
         new_var.product = product
-        new_var.title = "No Variations"
+        new_var.title = "Original Product"
         new_var.price = product.price
         new_var.save()
 post_save.connect(post_save_signal_receiver, sender=Product)
