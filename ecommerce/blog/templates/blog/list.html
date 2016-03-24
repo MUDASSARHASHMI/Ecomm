@@ -2,7 +2,7 @@
 {% block content %}
 
 
-<div class='col-sm-6 col-sm-offset-3'>
+<div class='col-sm-12'>
     <h1>{{ title }}</h1>
 <form method='GET' action=''>
 <input type='text' name='q' placeholder='Search posts' value='{{ request.GET.q }}'/>
@@ -10,7 +10,7 @@
 </form>
 {% for obj in object_list %}
 <div class="row">
-  <div class="col-sm-6">
+  <div class="col-sm-8  col-sm-offset-2">
     <div class="thumbnail">
         {{ obj.title }}
         {% if obj.image %}
