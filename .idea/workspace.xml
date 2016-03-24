@@ -2,13 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="95f00f02-f876-4a91-b7eb-17516b5275ff" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" afterPath="$PROJECT_DIR$/ecommerce/dressika.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/templates/base.html" afterPath="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/forms.py" afterPath="$PROJECT_DIR$/ecommerce/products/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/static/templates/message_display.html" afterPath="$PROJECT_DIR$/ecommerce/static/templates/message_display.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/mixins.py" afterPath="$PROJECT_DIR$/ecommerce/products/mixins.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" afterPath="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/views.py" afterPath="$PROJECT_DIR$/ecommerce/products/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html" afterPath="$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html" afterPath="$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Ecomm.iws" />
@@ -40,7 +37,7 @@
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="100" selection-start="480" selection-end="480" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1768">
+            <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="52.03846" vertical-offset="1353" max-vertical-offset="1853">
               <folding />
             </state>
           </provider>
@@ -55,10 +52,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
+      <file leaf-file-name="product_list.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="45" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1343">
+            <state line="1" column="0" selection-start="26" selection-end="66" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="323">
               <folding />
             </state>
           </provider>
@@ -110,10 +107,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="variation_list.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="variation_list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="34" selection-start="222" selection-end="222" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="493">
+            <state line="18" column="37" selection-start="506" selection-end="506" vertical-scroll-proportion="0.56920075" vertical-offset="14" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -122,16 +119,16 @@
       <file leaf-file-name="product_detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="17" selection-start="736" selection-end="736" vertical-scroll-proportion="-7.9615383" vertical-offset="405" max-vertical-offset="935">
+            <state line="1" column="0" selection-start="26" selection-end="66" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="detail.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="detail.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="799">
               <folding />
             </state>
           </provider>
@@ -153,7 +150,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="post" />
       </map>
     </option>
   </component>
@@ -170,17 +167,17 @@
         <option value="$PROJECT_DIR$/ecommerce/blog/templates/blog/list.html" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/settings.py" />
         <option value="$PROJECT_DIR$/ecommerce/ecommerce/urls.py" />
-        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/admin.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/urls.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/models.py" />
-        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/mixins.py" />
         <option value="$PROJECT_DIR$/ecommerce/products/views.py" />
         <option value="$PROJECT_DIR$/ecommerce/static/templates/message_display.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/forms.py" />
         <option value="$PROJECT_DIR$/ecommerce/static/templates/base.html" />
         <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html" />
+        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html" />
+        <option value="$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html" />
       </list>
     </option>
   </component>
@@ -697,7 +694,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -770,23 +767,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="297" selection-end="297" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="289">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/products/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="45" selection-start="1434" selection-end="1434" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1343">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="34" selection-start="222" selection-end="222" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="493">
           <folding />
         </state>
       </provider>
@@ -838,14 +821,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ecommerce/static/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="100" selection-start="480" selection-end="480" vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="1768">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="17" selection-start="736" selection-end="736" vertical-scroll-proportion="-7.9615383" vertical-offset="405" max-vertical-offset="935">
+        <state line="0" column="17" selection-start="17" selection-end="17" vertical-scroll-proportion="52.03846" vertical-offset="1353" max-vertical-offset="1853">
           <folding />
         </state>
       </provider>
@@ -853,6 +829,27 @@
     <entry file="file://$PROJECT_DIR$/ecommerce/blog/templates/blog/detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="66" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/product_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="26" selection-end="66" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="323">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ecommerce/products/templates/products/variation_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="37" selection-start="506" selection-end="506" vertical-scroll-proportion="0.56920075" vertical-offset="14" max-vertical-offset="527">
           <folding />
         </state>
       </provider>
