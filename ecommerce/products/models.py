@@ -18,7 +18,7 @@ class ProductManager(models.Manager):
 class Product(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
-    #image = models.ImageField(upload_to="/products")
+
     price = models.DecimalField(max_digits=12, decimal_places=2)
     active = models.BooleanField(default=True)
     objects = ProductManager()
@@ -28,11 +28,19 @@ class Product(models.Model):
 
     def get_absolute_url(self):
         return reverse("product_detail", kwargs={"pk":self.pk})
+def image_upload_to(instance, filename):
+    title = instance.product.title
+    slug = slugify(title)
+    file_extension = filename.split(".")[1]
+    new_filename = "%s.%s"%(instance.id, file_extension)
+    return 'products/%s/%s' %(slug, new_filename)
+
 
 class Variation(models.Model):
     product = models.ForeignKey(Product)
     title = models.CharField(max_length=200)
     description = models.TextField(null=True, blank=True)
+    image = models.ImageField(upload_to=image_upload_to)
     price = models.DecimalField(max_digits=20, decimal_places=2)
     sale_price = models.DecimalField(max_digits=20, decimal_places=2, null=True, blank=True)
     inventory = models.IntegerField(null=True, blank=True)

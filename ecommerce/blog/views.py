@@ -53,7 +53,7 @@ def blog_list(request):
         queryset = paginator.page(paginator.num_pages)
     context = {
         "object_list": queryset,
-        "title": "List",
+        "title": "Blog Posts",
         'page_request_var': page_request_var,
         "today": today
 
