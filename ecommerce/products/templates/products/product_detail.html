@@ -3,13 +3,21 @@
 {% load staticfiles %}
 
 {% block jquery %}
-var price = $(".variation_select option:selected").attr("data-price")
-$("#price").text(price);
-$(".variation_select").change(function(){
+
+function setPrice(){
     var price=$(".variation_select option:selected").attr("data-price")
-    $("#price").text(price);
+    var sale_price=$(".variation_select option:selected").attr("data-sale-price")
+    if (sale_price != "" && sale_price != "None" && sale_price != null){
+        $("#price").html("<h3>" + sale_price + " <small class='original-price'>" + price + "</small></h3>");
+        } else {
+        $("#price").html(price);
+        }
+}
+setPrice()
+$(".variation_select").change(function(){
     var img=$(".variation_select option:selected").attr("data-img")
     $("img").attr("src", img);
+    setPrice()
 })
 {% endblock jquery %}
 
@@ -33,15 +41,27 @@ $(".variation_select").change(function(){
 
 <!-- Product Side Bar -->
 <div class="col-sm-4">
-<h3 id="price">{{ object.price }}</h3>
+
 {% if object.variation_set.count > 1 %}
+<div><h3 id="price">{{ object.variation_set.first.price }}</h3>{% if sale_price %}{{ object.sale_price }}{% endif %}</div>
 <select class="form-control variation_select">
 {% for vari_obj in object.variation_set.all %}
 
-<option data-img="{{ vari_obj.image.url }}" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option>
+<option data-sale-price="{{ vari_obj.sale_price }}" data-img="{{ vari_obj.image.url }}" data-price="{{ vari_obj.price }}" value="{{ vari_obj.id }}">{{ vari_obj }}</option>
 
 {% endfor %}
 </select>
+{% else %}
+<h3 id="price">
+    {% if  object.variation_set.first.sale_price %}
+    {{ object.variation_set.first.sale_price }}
+    <small class="original-price">
+    {{ object.variation_set.first.price }}
+    </small>
+    {% else %}
+    {{ object.variation_set.first.price }}
+    {% endif %}
+</h3>
 {% endif %}
 <br>
 <a href="#">Add to Cart</a>
