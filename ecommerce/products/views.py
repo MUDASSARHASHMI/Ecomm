@@ -3,9 +3,18 @@ from django.shortcuts import render, get_object_or_404, Http404, redirect
 from django.db.models import Q
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
-from .models import Product, Variation
+from .models import Product, Variation, Category
 from .forms import VariationInventoryFormSet
 from .mixins import StaffRequiredMixin, LoginRequiredMixin
+
+class CategoryListView(ListView):
+    model = Category
+    queryset = Category.objects.all()
+    template_name = 'products/product_list.html'
+
+class CategoryDetailView(DetailView):
+    model = Category
+    
 
 class VariationListView(StaffRequiredMixin, ListView):
     model = Variation
