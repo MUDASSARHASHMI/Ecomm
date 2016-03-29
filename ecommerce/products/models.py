@@ -18,9 +18,10 @@ class ProductManager(models.Manager):
 class Product(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
-
     price = models.DecimalField(max_digits=12, decimal_places=2)
     active = models.BooleanField(default=True)
+    categories = models.ManyToManyField('Category', blank=True)
+    default = models.ForeignKey('Category', related_name='default_category', null=True, blank=True)
     objects = ProductManager()
 
     def __unicode__(self):
@@ -83,3 +84,15 @@ class ProductImage(models.Model):
 
     def __unicode__(self):
         return self.product.title
+
+
+class Category(models.Model):
+    title = models.CharField(max_length=120, unique=True)
+    slug = models.SlugField(unique=True)
+    description = models.TextField(null=True)
+    active = models.BooleanField(default=True)
+    timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
+
+    def __unicode__(self):
+        return self.title
+
