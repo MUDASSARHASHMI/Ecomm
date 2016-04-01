@@ -1,5 +1,5 @@
 from django.shortcuts import render
 
-def template2(request):
+def base(request):
     template = 'base.html'
     return render(request, template, {})

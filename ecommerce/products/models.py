@@ -15,10 +15,13 @@ class ProductManager(models.Manager):
     def all(self, *args, **kwargs):
         return self.get_queryset().active()
 
+    def get_related(self, **kwargs):
+        return self.get_queryset()
 class Product(models.Model):
     title = models.CharField(max_length=200)
     description = models.TextField(blank=True, null=True)
     price = models.DecimalField(max_digits=12, decimal_places=2)
+    sale_price = models.DecimalField(max_digits=12, decimal_places=2, null=True, blank=True)
     active = models.BooleanField(default=True)
     categories = models.ManyToManyField('Category', blank=True)
     default = models.ForeignKey('Category', related_name='default_category', null=True, blank=True)
@@ -87,12 +90,17 @@ class ProductImage(models.Model):
 
 
 class Category(models.Model):
+
     title = models.CharField(max_length=120, unique=True)
     slug = models.SlugField(unique=True)
-    description = models.TextField(null=True)
+    description = models.TextField(null=True, blank=True)
     active = models.BooleanField(default=True)
     timestamp = models.DateTimeField(auto_now=False, auto_now_add=True)
 
     def __unicode__(self):
         return self.title
+
+
+    def get_absolute_url(self):
+        return reverse("category_detail", kwargs={"slug": self.slug })
 
