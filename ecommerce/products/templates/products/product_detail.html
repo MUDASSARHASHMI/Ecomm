@@ -33,6 +33,7 @@ $(".variation_select").change(function(){
 
     <img id="img" class="data-img" class="img-responsive" src="{{ img.image.url }}"/>
     {% endfor %}
+
     </div>
     {% endif %}
 <p>{{ product.description }}</p>
@@ -41,9 +42,13 @@ $(".variation_select").change(function(){
 
 <!-- Product Side Bar -->
 <div class="col-sm-4">
+{% if product.sale_price %}
+<h3>{{ product.sale_price }}</h3>
+<small style="color: #0000FF;text-decoration: line-through!important;">{{ product.price }}</small>
 
+{% else %}
 {% if object.variation_set.count > 1 %}
-<div><h3 id="price">{{ object.variation_set.first.price }}</h3>{% if sale_price %}{{ object.sale_price }}{% endif %}</div>
+<div><h3 id="price">{{ object.variation_set.first.price }}</h3></div>
 <select class="form-control variation_select">
 {% for vari_obj in object.variation_set.all %}
 
@@ -62,6 +67,7 @@ $(".variation_select").change(function(){
     {{ object.variation_set.first.price }}
     {% endif %}
 </h3>
+{% endif %}
 {% endif %}
 <br>
 <a href="#">Add to Cart</a>

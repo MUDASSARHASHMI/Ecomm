@@ -18,13 +18,16 @@ from django.conf.urls import url, include, patterns
 from django.contrib import admin
 from django.conf import settings
 from django.conf.urls.static import static
+from .views import (
+    base
+    )
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^blog/', include('blog.urls', namespace='blog')),# Name space makes your urls unique even if they are of same name in multiple apps
     url(r'products/', include('products.urls')),
     url(r'categories/', include('products.urls_categories')),
-    url(r'^$', 'ecommerce.views.template2', name='home'),
+    url(r'^$', base, name='home'),
 ]
 
 if settings.DEBUG:
